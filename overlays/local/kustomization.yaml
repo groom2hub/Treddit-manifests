@@ -5,11 +5,11 @@ resources:
 # 이미지 태그를 한곳에서 관리한다. 새 버전 배포 = 이 3줄만 수정
 images:
   - name: ghcr.io/groom2hub/treddit-server
-    newTag: 1cb0eed
+    newTag: 026dfd9
   - name: ghcr.io/groom2hub/treddit-pipeline
-    newTag: 1cb0eed
+    newTag: 026dfd9
   - name: ghcr.io/groom2hub/treddit-frontend
-    newTag: 1cb0eed
+    newTag: 026dfd9
 replicas:
   - name: frontend
     count: 3
