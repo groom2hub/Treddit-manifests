@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:                  # 어디서 가져올지 (git)
-    repoURL: https://github.com/groom2hub/Treddit.git
+    repoURL: https://github.com/groom2hub/Treddit-manifests.git
     targetRevision: main
-    path: k8s/overlays/local
+    path: overlays/local
   destination:             # 어디에 배포할지 (클러스터)
     server: https://kubernetes.default.svc   # ArgoCD가 설치된 바로 이 클러스터
     namespace: treddit
